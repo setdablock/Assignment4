@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>CSS Modal Windows</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="app">
+  <div class="card">
+    <div class="card__img"><img src="starwars.jpg" alt=""></div>
+    <p class="card__description">Description of the first product.</p>
+    <a href="#modal1" class="card__btn">Open Modal Link I</a>
+  </div>
+  <div class="card">
+    <div class="card__img"><img src="startrek.jpg" alt=""></div>
+    <p class="card__description">Description of the second product.</p>
+    <a href="#modal2" class="card__btn">Open Modal Link II</a>
+  </div>
+
+  <div class="modal modal1" id="modal1">
+    <div class="modal-content">
+      <div class="modal__header">
+        <h1>Modal Window Example</h1>
+        <a href="#" class="close-btn">X</a>
+      </div>
+      <div class="modal__heading">Star Wars is Better. Star Wars is Better. Star Wars is Better.</div>
+      <div class="modal__img">
+        <img src="starwars2.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="modal modal2" id="modal2">
+    <div class="modal-content">
+      <div class="modal__header">
+        <h1>Modal Window Example</h1>
+        <a href="#" class="close-btn">X</a>
+      </div>
+      <div class="modal__heading"> No StarTrek is Better!  No StarTrek is Better!  No StarTrek is Better!</div>
+      <div class="modal__img">
+        <img src="startrek2.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
